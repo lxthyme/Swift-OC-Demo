@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 	s.name = 'Swift-OC'
-	s.version = '1.0.2.2'
+	s.version = '2'
 	s.description = 'IMYSwift Description.'
 	s.license = 'MIT'
 	s.summary = 'Swift-OC'
@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 	s.ios.deployment_target = '9.0'
 	s.swift_version = '5.0'
         s.resources = 'Swift-OC/**/*.{json,png,jpg,gif,js,xib,eot,svg,ttf,woff,db,sqlite,mp3}','Swift-OC/**/*.bundle'
-        
-	
+
+
         s.source_files = 'Swift-OC/**/*.{h,m,swift,pch}'
         s.prefix_header_file = 'Swift_OC-Swift.h'
-        
+
         #s.prefix_header_contents = '#import "Swift_OC-Swift.h"'
         #s.public_header_files = 'Swift_OC-Swift.h'
         #s.module_name = 'Swift-OC'
