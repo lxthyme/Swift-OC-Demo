@@ -3,7 +3,7 @@
 PROJECT_NAME=${PWD##*/}  #获取当前目录
 
 branch=master
-branch=damon
+# branch=damon
 # branch="damon/07-19_亮证"
 
 git stash
