@@ -31,7 +31,7 @@ DEPENDENCIES:
   - Toast
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - Alamofire
     - HandyJSON
     - Kingfisher
@@ -55,6 +55,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: c109c08c13ab806738e22c0b5b7ded5ecc9f92b8
+PODFILE CHECKSUM: bbb65bb1f8c724bd405210be28ea3241d10b676a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.11.3
